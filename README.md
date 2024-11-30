@@ -2,6 +2,7 @@
 
 This project is a Library Management System that simplifies and automates the processes of managing books in a library. The system is built as a web application and provides a user-friendly interface for librarians or administrators to handle core library operations efficiently.
 Features:
+
 *Add Books:
 
 ->Allows users to add new books to the library's collection.
@@ -25,9 +26,6 @@ Database:
 MongoDB: A NoSQL database for storing and managing book and member records efficiently.
 
 Installation and Setup:
-->Clone the repository:
-*git clone https://github.com/YourUsername/library-management-system.git
-
 ->Install dependencies for the backend:
  *npm install  
 ->Start the server:
