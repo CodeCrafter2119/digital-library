@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav1">
+        <ul>
+            <li><a href='/add'>PROFILE</a></li>
+            <li><a href='/issue'>ISSUE BOOK</a></li>
+            <li><a href='/home'>HOME</a></li>
+        </ul>
+    </nav>
+
+    <!-- Issue Book Form -->
+    <h2>Issue a Book</h2>
+    <form id="issueBookForm">
+        <input type="text" id="bookId" placeholder="Book ID" required>
+        <input type="text" id="user" placeholder="User Name" required>
+        <button type="submit">Issue Book</button>
+    </form>
+
+    <!-- Return Book Form -->
+    <h2>Return a Book</h2>
+    <form id="returnBookForm">
+        <input type="text" id="returnBookId" placeholder="Book ID" required>
+        <button type="submit">Return Book</button>
+    </form>
+
+    <h2>Available Books</h2>
+    <ul id="bookList"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>

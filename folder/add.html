@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav1">
+        <ul>
+            <li><a href='/add'>PROFILE</a></li>
+            <li><a href='/issue'>ISSUE BOOK</a></li>
+            <li><a href='/home'>HOME</a></li>
+        </ul>
+    </nav>
+
+    <!-- Add Book Form -->
+     <h1>Add Book</h1>
+    <form id="addBookForm">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <button type="submit">Add Book</button>
+    </form>
+
+    
+    <h2>Available Books</h2>
+    <ul id="bookList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
